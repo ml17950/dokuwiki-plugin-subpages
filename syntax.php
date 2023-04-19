@@ -1,5 +1,4 @@
-<?php
-//	Last Change 2021-01-03
+<?php	//	Last Change 2023-04-19
 
 if(!defined('DOKU_INC')) {
     define ('DOKU_INC', realpath(dirname(__FILE__).'/../../').'/');
@@ -23,16 +22,16 @@ class syntax_plugin_subpages extends DokuWiki_Syntax_Plugin {
     /**
      * Constructor
      */
-    function syntax_plugin_subpages() {
+    function __construct() {
         global $conf;
 
-//         if($conf ["allowdebug"] == 1)
-//             $this->debug = true;
+        // if($conf ["allowdebug"] == 1)
+            // $this->debug = true;
 
         $this->start		= $conf['start'];
         $this->useheading	= $conf['useheading'];
         $this->datadir		= $conf['datadir'];
-		//$this->style   = $this->getConf("style");
+		// $this->style   		= $this->getConf("style");
     }
 
     /**
