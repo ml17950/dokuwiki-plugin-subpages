@@ -22,9 +22,9 @@ Refer to [Plugins](https://www.dokuwiki.org/plugins) on how to install plugins m
 
 ## Getting started
   1. Create a page in Dokuwiki and add following text:
-```
-~~SUBPAGES~~
-```
+     ```
+     ~~SUBPAGES~~
+     ```
   2. Add some subpages.
   3. Update the [Dokuwiki cache](https://www.dokuwiki.org/caching), if you don't see the changes.
 
