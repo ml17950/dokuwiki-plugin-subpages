@@ -16,11 +16,12 @@ I just wanted the possibility to display a list of pages without options in "one
 ## Requirements
 [Dokiwiki](https://www.dokuwiki.org/) Greebo and later
 
-## Installing
+## Installation
 Install the plugin using the [Plugin Manager](https://www.dokuwiki.org/plugin:plugin) and the download URL above, which points to latest version of the plugin.  
 Refer to [Plugins](https://www.dokuwiki.org/plugins) on how to install plugins manually. 
 
-## Getting started
+## How to use
+
   1. Create a page in Dokuwiki and add following text:
      ```
      ~~SUBPAGES~~
@@ -38,7 +39,7 @@ Refer to [Plugins](https://www.dokuwiki.org/plugins) on how to install plugins m
   - 2023-04-19: Bugfix (changed constructor)
   - 2023-06-20: Readme/PluginInfo updated
 
-## Contributing
+## Contribute
 As I use this for my own projects, I know this might not be the perfect approach for all the projects out there. 
 If you have any ideas, just open an issue and tell me what you think.
 
